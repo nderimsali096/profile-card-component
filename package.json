@@ -1,0 +1,14 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "a profile-card-component",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "author": "Nderim Sali",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
