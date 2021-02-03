@@ -6,15 +6,21 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap">
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
+  <div class="container">
+  <div class="bg-circles">
+    <img class="bg-circles--circle1" src="images/bg-pattern-top.svg" alt="topbg">
+    <img class="bg-circles--circle2" src="images/bg-pattern-bottom.svg" alt="bottombg">
+  </div>
   <div class="card">
     <header class="card__header">
       
@@ -24,17 +30,27 @@
     </div>
     <div class="card__main">
       <div class="card__main--info">
-        <p class="card__main--name">Victor Crest26</p>
+        <p class="card__main--name">Victor Crest <span class="card__main--name-age">26</span></p>
         <p class="card__main--place">London</p>
       </div>
       <div class="card__main--social-media">
-        <ul class="card__main--list">
-          <li class="items">80K Followers</li>
-          <li class="items">803K Likes</li>
-          <li class="items">1.4K Photos</li>
+        <ul class="card__list">
+          <li class="card__list--items">
+            <p class="card__list--items-1">80K</p>
+            <p class="card__list--items-2">Followers</p>
+          </li>
+          <li class="card__list--items">
+            <p class="card__list--items-1">803K</p>
+            <p class="card__list--items-2">Likes</p>
+          </li>
+          <li class="card__list--items">
+            <p class="card__list--items-1">1.4K</p>
+            <p class="card__list--items-2">Photos</p>
+          </li>
         </ul>
       </div>
     </div>
+  </div>
   </div>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

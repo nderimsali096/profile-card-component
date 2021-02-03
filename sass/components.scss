@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-circles  {
+    img {
+        position: absolute;
+    }
+
+    &--circle1{
+        top: -38.56rem;
+        left: -11rem;
+    }
+    
+    &--circle2{
+        bottom: -38.56rem;
+        right: -11rem;
+    }
+}
+
+
+
+.card {
+    background-color: #ffffff;
+    height: 22rem;
+    width: 22rem;
+    position: relative;
+    border-radius: 20px;
+
+    &__header {
+        background-image: url(../images/bg-pattern-card.svg);
+        background-size: cover;
+        height: 35%;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+
+    &__photo {
+        height: 5rem;
+        &-1 {
+            height: 6rem;
+            width: 6rem;
+            position: absolute;
+            top: 5rem;
+            left: 7.6rem;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    &__main {
+        font-size: 0.8rem;
+
+
+        &--info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 50%;
+            margin-bottom: 2.5rem;
+            
+        }
+
+        &--name {
+            margin: 0.3rem 0;
+            font-weight: 600;
+            color: #000000;
+
+            &-age {
+                color: var(--Dark-gray);
+                margin-left: 0.3rem;
+            }
+        }
+
+
+        &--place {
+            margin: 0;
+            font-size: 0.8rem;
+            color: var(--Dark-gray);
+            letter-spacing: 0.1rem;
+            font-family: monospace;
+        }
+
+
+        &--social-media {
+            height: 50%;
+            border-top: 1px solid var(--Dark-gray);
+        }
+
+
+        
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+
+        &--items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            
+            &-1{
+                margin: 0.3rem 0;
+                color: #000000;
+                font-weight: 600;
+                font-size: 1rem;
+            }
+
+            &-2{
+                margin: 0;
+                font-size: 0.6rem;
+                color: var(--Dark-gray);
+                letter-spacing: 0.1rem;
+                font-family: monospace;
+            }
+        }
+
+    }
+}
+

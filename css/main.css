@@ -6,4 +6,105 @@
 
 body {
   font-size: 1.2rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  font-family: 'Kumbh Sans', monospace;
+  margin: 0; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none; }
+
+.attribution a {
+  color: #3e52a3; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #19a2ae;
+  position: relative;
+  overflow: hidden; }
+
+.bg-circles img {
+  position: absolute; }
+
+.bg-circles--circle1 {
+  top: -38.56rem;
+  left: -11rem; }
+
+.bg-circles--circle2 {
+  bottom: -38.56rem;
+  right: -11rem; }
+
+.card {
+  background-color: #ffffff;
+  height: 22rem;
+  width: 22rem;
+  position: relative;
+  border-radius: 20px; }
+  .card__header {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    border-radius: 20px 20px 0 0; }
+  .card__photo {
+    height: 5rem; }
+    .card__photo-1 {
+      height: 6rem;
+      width: 6rem;
+      position: absolute;
+      top: 5rem;
+      left: 7.6rem;
+      border-radius: 50%;
+      border: 5px solid #ffffff;
+      padding: 0;
+      margin: 0; }
+  .card__main {
+    font-size: 0.8rem; }
+    .card__main--info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 50%;
+      margin-bottom: 2.5rem; }
+    .card__main--name {
+      margin: 0.3rem 0;
+      font-weight: 600;
+      color: #000000; }
+      .card__main--name-age {
+        color: var(--Dark-gray);
+        margin-left: 0.3rem; }
+    .card__main--place {
+      margin: 0;
+      font-size: 0.8rem;
+      color: var(--Dark-gray);
+      letter-spacing: 0.1rem;
+      font-family: monospace; }
+    .card__main--social-media {
+      height: 50%;
+      border-top: 1px solid var(--Dark-gray); }
+  .card__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0; }
+    .card__list--items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 0.5rem; }
+      .card__list--items-1 {
+        margin: 0.3rem 0;
+        color: #000000;
+        font-weight: 600;
+        font-size: 1rem; }
+      .card__list--items-2 {
+        margin: 0;
+        font-size: 0.6rem;
+        color: var(--Dark-gray);
+        letter-spacing: 0.1rem;
+        font-family: monospace; }
