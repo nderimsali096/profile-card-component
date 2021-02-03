@@ -10,15 +10,19 @@ body {
   margin: 0; }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1rem;
+  color: #ffffff;
   text-align: center;
-  display: none; }
+  position: absolute;
+  bottom: 2rem;
+  left: 35rem; }
 
 .attribution a {
   color: #3e52a3; }
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
